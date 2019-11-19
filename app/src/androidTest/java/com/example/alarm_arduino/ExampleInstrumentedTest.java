@@ -1,4 +1,4 @@
-package com.example.arduino_alarm_clock;
+package com.example.alarm_arduino;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.arduino_alarm_clock", appContext.getPackageName());
+        assertEquals("com.example.alarm_arduino", appContext.getPackageName());
     }
 }

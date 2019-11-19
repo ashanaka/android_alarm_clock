@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.arduino_alarm_clock">
+    package="com.example.alarm_arduino">
 
     <application
         android:allowBackup="true"

@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='arduino_alarm_clock'
+rootProject.name='alarm_arduino'

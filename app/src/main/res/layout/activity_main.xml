@@ -6,15 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TimePicker
-        android:id="@+id/simpleTimePicker"
-        android:layout_width="382dp"
-        android:layout_height="364dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:timePickerMode="spinner" />
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            android:timePickerMode="clock"
+            />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Time: "
+            android:textColor="#090"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timePicker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:text="SET ALARM" />
 </RelativeLayout>
 

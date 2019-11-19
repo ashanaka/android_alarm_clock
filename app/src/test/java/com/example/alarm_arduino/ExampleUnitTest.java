@@ -1,4 +1,4 @@
-package com.example.arduino_alarm_clock;
+package com.example.alarm_arduino;
 
 import org.junit.Test;
 
